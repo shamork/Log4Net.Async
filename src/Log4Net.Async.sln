@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{6D2497B1-6E3B-42CF-840B-D9D900B9453C}"
 	ProjectSection(SolutionItems) = preProject
@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{A7C3
 		SampleConfig\AsyncRollingFileAppender.config = SampleConfig\AsyncRollingFileAppender.config
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net.Async.Net45", "Log4Net.Async\Log4Net.Async.Net45.csproj", "{2ED27C45-6C28-4AF6-8DCC-8614397F2B34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{A4C43C9A-2B71-4186-BAB5-DE294E5A05BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4C43C9A-2B71-4186-BAB5-DE294E5A05BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4C43C9A-2B71-4186-BAB5-DE294E5A05BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED27C45-6C28-4AF6-8DCC-8614397F2B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED27C45-6C28-4AF6-8DCC-8614397F2B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED27C45-6C28-4AF6-8DCC-8614397F2B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED27C45-6C28-4AF6-8DCC-8614397F2B34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
